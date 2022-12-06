@@ -204,6 +204,7 @@ def transform(new_artifacts, old_artifacts):
     return {'pathMappings': pathMappings, 'artifacts': artifacts}
 ```
 
-The above steps can be replicated in the UI, by uploading the zip of the custom transformer as an input of type `customization`. You can get the zip of the source and customization by adding a `-z` to the end of the commands used in step 2 and step 4.
+The above steps can be replicated in the UI, by uploading the zip of the custom transformer as an input of type `customization`.
+For convenience we have provided the `customizations.zip` file in this exercise directory.
 
 For more detailed info see the full tutorial here - https://move2kube.konveyor.io/tutorials/customizing-the-output/custom-annotations
