@@ -104,7 +104,7 @@ In this example, we illustrate how we could add an annotation specifying the ing
     ```
 
 
-1. We will use the starlark based custom transformer given [here](https://github.com/konveyor/move2kube-transformers/tree/main/add-custom-kubernetes-annotation). We will copy it into the `customizations` directory.
+1. We will use the starlark based custom transformer given [here](https://github.com/konveyor/move2kube-transformers/tree/main/add-custom-kubernetes-annotation). We already have it in the `customizations` directory in this exercise.
     ```console
     $ ls customizations/add-custom-kubernetes-annotation/
     ```
